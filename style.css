@@ -114,6 +114,7 @@ body{
     width: 100%;
     height:950px;
     margin-top: -75px;
+    border-radius: 20px;
     background-image: url("../ARGYX/Kartvizitler/doganaytiringaarkayuz.png");
     background-repeat: no-repeat;
     background-position: 50%;
@@ -152,8 +153,9 @@ body{
 
 .first {
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: #727272;
+    background-image: url("./ımages/tanıtım1.png");
     top: 100px;
     left: 20px;
     z-index: 1;
@@ -161,8 +163,9 @@ body{
 
 .sec {
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: #727272;
+    background-image: url("./ımages/tanıtım2.png");
     top: 100px;
     left: 425px;
     z-index: 1;
@@ -187,7 +190,7 @@ body{
 }
 
   .video{
-        position: absolute;
+        position: flex;
         top: 0;
         left: 0;
         width: 100%;
